@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+int M,T,W,F,S ;
+char Day ;
+
+cout<< " Enter any Day: \n ";
+cin>>Day;
+
+
+switch (Day) {
+    case  'M'  :
+    cout << " Monday "  ;
+    break;
+    case 'm' :
+    cout << " monday " ;
+    break;
+    case   'T'  :
+    cout << " Tuesday ";
+    break;
+    case   't'  :
+    cout << " Tuesday ";
+    break;
+    case   'W'  :
+    cout << " Wednesday ";
+    break;
+    case   'w'  :
+    cout << " wednesday ";
+    break;
+   
+}
+
+  
+}
